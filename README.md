@@ -12,9 +12,9 @@ All the project  of the esp32 microcontroller programming using the micro python
     - py -m venv .venv
     - .venv\Scripts\activate
     - pip install esptool
-    - esptool.exe --chip esp32 --port COM21 erase_flash
+    - esptool.exe --chip esp32 --port COM21 erase_flash // check  the COM PORT through the device manager
     HOLD BOOT BOTTON
-    - esptool.exe --chip esp32 --port COM21 write_flash -z 0x1000 esp32-20190125-v1.10.bin
+    - esptool.exe --chip esp32 --port COM21 write_flash -z 0x1000 esp32-20190125-v1.10.bin // make sure your  COM PORT  and (.bin) file name are correct
     HOLD BOOT BOTTON
 
 
